@@ -90,7 +90,7 @@
           <Instagram :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
         /></a>
         <a
-          href="/Jaturong_Duangchaiyusuk_CV.pdf"
+          href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
           download="Jaturong_Duangchaiyusuk_CV.pdf"
         >
           <Download :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'" />

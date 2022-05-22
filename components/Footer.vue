@@ -29,7 +29,7 @@
             <Instagram :className="'h-4 w-4 m-2'"
           /></a>
           <a
-            href="/Jaturong_Duangchaiyusuk_CV.pdf"
+            href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
             download="Jaturong_Duangchaiyusuk_CV.pdf"
           >
             <Download :className="'h-4 w-4 m-2'" />
