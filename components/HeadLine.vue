@@ -74,21 +74,27 @@
       </div>
       <div class="text-sm sm:text-xl">Web Developer, Thailand</div>
       <div class="m-4 flex justify-center">
-        <Mail
-          :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2 cursor-pointer'"
-        />
-        <Linkedin
-          :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2 cursor-pointer'"
-        />
-        <Github
-          :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2 cursor-pointer'"
-        />
-        <Instagram
-          :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2 cursor-pointer'"
-        />
-        <Download
-          :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2 cursor-pointer'"
-        />
+        <a href="mailto:jaturong.duang@gmail.com" target="_blank"
+          ><Mail :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
+          target="_blank"
+        >
+          <Linkedin :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+        /></a>
+        <a href="https://github.com/srankmeng" target="_blank">
+          <Github :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+        /></a>
+        <a href="https://www.instagram.com/srank" target="_blank">
+          <Instagram :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+        /></a>
+        <a
+          href="/Jaturong_Duangchaiyusuk_CV.pdf"
+          download="Jaturong_Duangchaiyusuk_CV.pdf"
+        >
+          <Download :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'" />
+        </a>
       </div>
     </div>
   </header>

@@ -13,11 +13,27 @@
       >
         <div class="text-xs">© 2022-2024 Jaturong Duangchaiyusuk</div>
         <div class="flex">
-          <Mail :className="'h-4 w-4 m-2 cursor-pointer'" />
-          <Linkedin :className="'h-4 w-4 m-2 cursor-pointer'" />
-          <Github :className="'h-4 w-4 m-2 cursor-pointer'" />
-          <Instagram :className="'h-4 w-4 m-2 cursor-pointer'" />
-          <Download :className="'h-4 w-4 m-2 cursor-pointer'" />
+          <a href="mailto:jaturong.duang@gmail.com" target="_blank"
+            ><Mail :className="'h-4 w-4 m-2'"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
+            target="_blank"
+          >
+            <Linkedin :className="'h-4 w-4 m-2'"
+          /></a>
+          <a href="https://github.com/srankmeng" target="_blank">
+            <Github :className="'h-4 w-4 m-2'"
+          /></a>
+          <a href="https://www.instagram.com/srank" target="_blank">
+            <Instagram :className="'h-4 w-4 m-2'"
+          /></a>
+          <a
+            href="/Jaturong_Duangchaiyusuk_CV.pdf"
+            download="Jaturong_Duangchaiyusuk_CV.pdf"
+          >
+            <Download :className="'h-4 w-4 m-2'" />
+          </a>
         </div>
       </div>
     </div>
