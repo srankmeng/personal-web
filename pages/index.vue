@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import 'tw-elements'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 export default {

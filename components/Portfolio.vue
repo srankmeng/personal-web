@@ -76,8 +76,14 @@
                 logging features, Able to generate report for visualize estime
                 and actual remain man-days. I contributed to frontend web,
                 backend api and cloud infrastructure. The website require
-                username so you can contact me for demo all features that I
-                develop.
+                username so you can see the web on preview modal.
+              </div>
+              <div
+                class="text-sm sm:text-base text-blue-400 cursor-pointer"
+                data-bs-toggle="modal"
+                data-bs-target="#preview-modal"
+              >
+                Preview
               </div>
             </div>
           </div>
@@ -159,29 +165,97 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div
+      id="preview-modal"
+      class="
+        modal
+        fade
+        fixed
+        top-0
+        left-0
+        hidden
+        w-full
+        h-full
+        outline-none
+        overflow-x-hidden overflow-y-auto
+      "
+      tabindex="-1"
+      aria-modal="true"
+      role="dialog"
+    >
+      <div
+        class="
+          modal-dialog modal-lg modal-dialog-centered
+          relative
+          w-auto
+          pointer-events-none
+        "
+      >
+        <div
+          class="
+            modal-content
+            border-none
+            shadow-lg
+            relative
+            flex flex-col
+            w-full
+            pointer-events-auto
+            bg-white bg-clip-padding
+            rounded-md
+            outline-none
+            text-current
+          "
+        >
+          <div class="modal-body relative">
+            <Carousel :list="previewList.aday" />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 import ExternalLink from '@/components/Icon/ExternalLink'
 import More from '@/components/Icon/More'
+import Carousel from '@/components/Carousel'
 export default {
   name: 'Portfolio',
   components: {
+    Carousel,
     ExternalLink,
     More,
   },
   data() {
     return {
-      // isShowModal: false,
+      previewList: {
+        aday: [
+          {
+            image: require(`~/assets/portfolio/aday-preview-1.png`),
+          },
+          {
+            image: require(`~/assets/portfolio/aday-preview-2.png`),
+          },
+          {
+            image: require(`~/assets/portfolio/aday-preview-3.png`),
+          },
+          {
+            image: require(`~/assets/portfolio/aday-preview-4.png`),
+          },
+          {
+            image: require(`~/assets/portfolio/aday-preview-5.png`),
+          },
+          {
+            image: require(`~/assets/portfolio/aday-preview-6.png`),
+          },
+        ],
+      },
     }
   },
 
-  methods: {
-    // toggleShowModal() {
-    //   this.isShowModal = !this.isShowModal
-    // },
-  },
+  methods: {},
 }
 </script>
 
