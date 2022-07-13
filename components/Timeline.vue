@@ -77,8 +77,8 @@
                   leading-none
                   text-gray-400
                 "
-                >May 2021 -
-                <span
+                >May 2021 - Jul 2022
+                <!-- <span
                   class="
                     bg-blue-100
                     text-blue-800 text-xs
@@ -89,8 +89,8 @@
                     rounded
                   "
                   >Present</span
-                ></time
-              >
+                > -->
+              </time>
               <ul
                 class="list-disc ml-4 mb-4 text-sm sm:text-base text-gray-500"
               >
