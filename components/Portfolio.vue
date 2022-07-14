@@ -112,26 +112,28 @@
             <div class="text-sm sm:text-base space-y-1 font-medium">
               <div class="text-white">
                 KASETTUNJAI
-                <a
-                  href="https://apps.apple.com/th/app/%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%97-%E0%B8%99%E0%B9%83%E0%B8%88-%E0%B8%99-%E0%B8%81%E0%B8%9A-%E0%B8%99/id1623517440"
-                  target="_blank"
-                >
-                  <img
-                    class="inline-block ml-1"
-                    style="width: 70px"
-                    src="~/assets/apple_store.png"
-                    alt="apple store"
-                /></a>
-                <a
-                  href="https://play.google.com/store/apps/details?id=com.kasettunjai.pilot"
-                  target="_blank"
-                >
-                  <img
-                    class="inline-block ml-1"
-                    style="width: 70px"
-                    src="~/assets/play_store.png"
-                    alt="apple store"
-                /></a>
+                <div class="inline-block my-1">
+                  <a
+                    href="https://apps.apple.com/th/app/%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%97-%E0%B8%99%E0%B9%83%E0%B8%88-%E0%B8%99-%E0%B8%81%E0%B8%9A-%E0%B8%99/id1623517440"
+                    target="_blank"
+                  >
+                    <img
+                      class="inline-block mr-1"
+                      style="width: 70px"
+                      src="~/assets/apple_store.png"
+                      alt="apple store"
+                  /></a>
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.kasettunjai.pilot"
+                    target="_blank"
+                  >
+                    <img
+                      class="inline-block"
+                      style="width: 70px"
+                      src="~/assets/play_store.png"
+                      alt="apple store"
+                  /></a>
+                </div>
               </div>
               <div class="text-sm sm:text-base text-gray-400">
                 Mobile agriculture application. The platform have client app,
