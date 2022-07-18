@@ -106,9 +106,32 @@
                   Use Docker and AWS for deployment including setup Github
                   action for CI/CD part
                 </li>
-                <li>Use Cypress for E2E automate part</li>
+                <li>Use Cypress for E2E to automate part</li>
                 <li>
-                  The delivery website which client site and back-office site
+                  Delivery website
+                  <a
+                    class="text-blue-400"
+                    href="https://app.aday.works"
+                    target="_blank"
+                    >https://app.aday.works</a
+                  >
+                  that including a back-office site
+                </li>
+                <li>
+                  Implement API of the mobile application both of
+                  <a
+                    class="text-blue-400"
+                    href="https://apps.apple.com/th/app/%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%97-%E0%B8%99%E0%B9%83%E0%B8%88-%E0%B8%99-%E0%B8%81%E0%B8%9A-%E0%B8%99/id1623517440"
+                    target="_blank"
+                    >IOS</a
+                  >
+                  and
+                  <a
+                    class="text-blue-400"
+                    href="https://play.google.com/store/apps/details?id=com.kasettunjai.pilot"
+                    target="_blank"
+                    >Android</a
+                  >
                 </li>
               </ul>
 
@@ -299,7 +322,7 @@
                     target="_blank"
                     >https://www.scg-id.com</a
                   >
-                  that including back-office site
+                  that including a back-office site
                 </li>
               </ul>
             </li>
