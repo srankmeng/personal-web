@@ -1,8 +1,6 @@
 <template>
   <div class="greeting container mx-auto my-8 px-4 z-10">
-    <p class="font-bold text-xl sm:text-3xl text-gray-900">
-      Hello & Welcome to my website
-    </p>
+    <p class="font-bold text-xl sm:text-3xl text-gray-900">Overview</p>
     <p class="text-sm sm:text-xl my-4" style="text-indent: 32px">
       I am a web developer who wants to improve my skill always. I have several
       experiences with software development. For technical skills such as
