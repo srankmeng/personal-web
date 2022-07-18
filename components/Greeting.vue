@@ -5,7 +5,7 @@
       I am a web developer who wants to improve my skill always. I have several
       experiences with software development. For technical skills such as
       frontend, backend, automated testing, and AWS services (EC2, S3, Lambda,
-      Cloudfront, etc.). I'm good on the frontend more than the backend but I
+      Cloudfront, etc.). I'm good at the frontend more than the backend but I
       can do it as well. For other skills, I used to use the Agile process in my
       projects which have planning, backlogs refinement, daily stand-up, and
       retrospective. And I can use tools that are related to my tasks. In
