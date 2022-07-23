@@ -63,6 +63,7 @@ export default {
         'Liff',
         'Git',
         'Firebase',
+        'C#',
       ],
     }
   },
