@@ -27,6 +27,91 @@
                 "
               >
                 <svg
+                  class="w-3 h-3 text-blue-600"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+              </span>
+              <h3
+                class="
+                  flex
+                  items-center
+                  mb-1
+                  text-sm
+                  sm:text-lg
+                  font-semibold
+                  text-gray-900
+                "
+              >
+                Full Stack Developer Consultant:
+                <span class="text-gray-500"> Siam Chamnankit</span>
+                <span
+                  class="
+                    bg-gray-200
+                    text-gray-500 text-xs
+                    sm:text-sm
+                    font-medium
+                    mr-2
+                    px-2.5
+                    py-0.5
+                    rounded
+                    ml-3
+                  "
+                  >Bangkok, Thailand</span
+                >
+              </h3>
+              <time
+                class="
+                  block
+                  mb-2
+                  text-xs
+                  sm:text-sm
+                  font-normal
+                  leading-none
+                  text-gray-400
+                "
+                >Feb 2023 - Present
+              </time>
+              <ul
+                class="list-disc ml-4 mb-4 text-sm sm:text-base text-gray-500"
+              >
+                <li>Collaborated with clients to understand business requirements, and conducted needs assessments
+                </li>
+                <li>
+                  Creating a pipeline for automated testing and delivery projects
+                </li>
+                <li>
+                  Provided ongoing technical support, troubleshooting, and enhancements for existing applications
+                </li>
+              </ul>
+            </li>
+
+            <li class="mb-10 ml-10 timeline-item">
+              <span
+                class="
+                  flex
+                  absolute
+                  -left-3
+                  justify-center
+                  items-center
+                  w-6
+                  h-6
+                  bg-blue-200
+                  rounded-full
+                  ring-4 ring-white
+                  transition-all
+                  duration-300
+                  icon-wrapper
+                "
+              >
+                <svg
                   class="w-3 h-3 hover:w-12 hover:h-12 text-blue-600"
                   viewBox="0 0 24 24"
                   fill="none"
@@ -134,98 +219,6 @@
                   >
                 </li>
               </ul>
-
-              <ol class="relative border-l border-gray-200">
-                <li class="mb-10 ml-10">
-                  <span
-                    class="
-                      flex
-                      absolute
-                      -left-3
-                      justify-center
-                      items-center
-                      w-6
-                      h-6
-                      bg-blue-200
-                      rounded-full
-                      ring-4 ring-white
-                    "
-                  >
-                    <svg
-                      class="w-3 h-3 hover:w-12 hover:h-12 text-blue-600"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    >
-                      <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-                      <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
-                    </svg>
-                  </span>
-                  <h3
-                    class="
-                      flex
-                      items-center
-                      mb-1
-                      text-sm
-                      sm:text-lg
-                      font-semibold
-                      text-gray-900
-                    "
-                  >
-                    Senior Backend Developer:
-                    <span class="text-gray-500">SCB Tech X</span>
-                    <span
-                      class="
-                        bg-gray-200
-                        text-gray-500 text-xs
-                        sm:text-sm
-                        font-medium
-                        mr-2
-                        px-2.5
-                        py-0.5
-                        rounded
-                        ml-3
-                      "
-                      >Bangkok, Thailand</span
-                    >
-                  </h3>
-                  <time
-                    class="
-                      block
-                      mb-2
-                      text-xs
-                      sm:text-sm
-                      font-normal
-                      leading-none
-                      text-gray-400
-                    "
-                    >Oct 2021 - Dec 2021
-                  </time>
-                  <ul
-                    class="
-                      list-disc
-                      ml-4
-                      mb-4
-                      text-sm
-                      sm:text-base
-                      text-gray-500
-                    "
-                  >
-                    <li>Join in Robinhood application team</li>
-                    <li>
-                      Develop API in OTA feature (online travel agency), connect
-                      3rd party api
-                    </li>
-                    <li>Maintainance existing features</li>
-                    <li>Use AWS service for support the features</li>
-                    <li>Develop the unit test for support the features</li>
-                    <li>Meeting and discussing with team</li>
-                  </ul>
-                </li>
-              </ol>
             </li>
 
             <li class="mb-10 ml-10 timeline-item">
