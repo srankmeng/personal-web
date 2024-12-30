@@ -11,7 +11,8 @@
 </template>
 
 <script>
-import 'tw-elements'
+import { initTWE, Modal, Ripple } from "tw-elements";
+
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 export default {
@@ -23,6 +24,7 @@ export default {
 
   mounted() {
     AOS.init()
+    initTWE({ Modal, Ripple }, { allowReinits: true });
   },
 
   methods: {},

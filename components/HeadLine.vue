@@ -72,28 +72,28 @@
       <div class="text-xl sm:text-3xl font-semibold m-6">
         Jaturong Duangchaiyusuk
       </div>
-      <div class="text-sm sm:text-xl">Web Developer, Thailand</div>
+      <div class="text-sm sm:text-xl">FullStack Software Developer, Thailand</div>
       <div class="m-4 flex justify-center">
         <a href="mailto:jaturong.duang@gmail.com" target="_blank"
-          ><Mail :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+          ><Mail :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
         <a
           href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
           target="_blank"
         >
-          <Linkedin :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+          <Linkedin :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
         <a href="https://github.com/srankmeng" target="_blank">
-          <Github :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+          <Github :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
-        <a href="https://www.instagram.com/srank" target="_blank">
-          <Instagram :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'"
+        <a href="https://medium.com/@srank123" target="_blank">
+          <Medium :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
         <a
           href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
           download="Jaturong_Duangchaiyusuk_CV.pdf"
         >
-          <Download :className="'h-5 w-5 sm:h-6 sm:w-6 text-white m-2'" />
+          <Download :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'" />
         </a>
       </div>
     </div>
@@ -108,7 +108,7 @@ import Disc from '@/components/Icon/Disc'
 import Download from '@/components/Icon/Download'
 import Git from '@/components/Icon/Git'
 import Github from '@/components/Icon/Github'
-import Instagram from '@/components/Icon/Instagram'
+import Medium from '@/components/Icon/Medium'
 import Linkedin from '@/components/Icon/Linkedin'
 import Mail from '@/components/Icon/Mail'
 import Smile from '@/components/Icon/Smile'
@@ -124,7 +124,7 @@ export default {
     Disc,
     Git,
     Github,
-    Instagram,
+    Medium,
     Linkedin,
     Mail,
     Smile,

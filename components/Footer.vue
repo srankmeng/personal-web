@@ -1,5 +1,5 @@
 <template>
-  <div class="footer bg-gray-900">
+  <div class="footer bg-gray-900 text-gray-400">
     <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 py-4">
       <div
         class="
@@ -14,25 +14,25 @@
         <div class="text-xs">© 2022-2024 Jaturong Duangchaiyusuk</div>
         <div class="flex">
           <a href="mailto:jaturong.duang@gmail.com" target="_blank"
-            ><Mail :className="'h-4 w-4 m-2'"
+            ><Mail :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
           <a
             href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
             target="_blank"
           >
-            <Linkedin :className="'h-4 w-4 m-2'"
+            <Linkedin :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
           <a href="https://github.com/srankmeng" target="_blank">
-            <Github :className="'h-4 w-4 m-2'"
+            <Github :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
-          <a href="https://www.instagram.com/srank" target="_blank">
-            <Instagram :className="'h-4 w-4 m-2'"
+          <a href="https://medium.com/@srank123" target="_blank">
+            <Medium :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
           <a
             href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
             download="Jaturong_Duangchaiyusuk_CV.pdf"
           >
-            <Download :className="'h-4 w-4 m-2'" />
+            <Download :className="'h-4 w-4 m-2 hover:text-gray-200'" />
           </a>
         </div>
       </div>
@@ -43,7 +43,7 @@
 <script>
 import Download from '@/components/Icon/Download'
 import Github from '@/components/Icon/Github'
-import Instagram from '@/components/Icon/Instagram'
+import Medium from '@/components/Icon/Medium'
 import Linkedin from '@/components/Icon/Linkedin'
 import Mail from '@/components/Icon/Mail'
 export default {
@@ -51,7 +51,7 @@ export default {
   components: {
     Download,
     Github,
-    Instagram,
+    Medium,
     Linkedin,
     Mail,
   },
