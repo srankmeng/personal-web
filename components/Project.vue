@@ -6,7 +6,7 @@
       </p>
 
       <div class="grid grid-cols-6 gap-4">
-        <div class="col-start-2 col-span-4">
+        <div class="col-start-1 col-end-7 sm:col-start-2 sm:col-end-6">
           <div
             class="sm:flex items-center sm:space-x-8 my-4"
             data-aos="fade-left"

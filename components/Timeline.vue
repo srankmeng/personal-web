@@ -6,9 +6,9 @@
       </p>
 
       <div class="grid grid-cols-6 gap-4">
-        <div class="col-start-2 col-span-4">
-          <ol class="relative border-l border-gray-200">
-            <li class="mb-10 ml-10 timeline-item">
+        <div class="col-start-1 col-end-7 sm:col-start-2 sm:col-end-6">
+          <ol class="relative border-l-0 sm:border-l border-gray-200">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -23,6 +23,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >
@@ -99,7 +100,7 @@
               </ul>
             </li>
 
-            <li class="mb-10 ml-10 timeline-item">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -114,6 +115,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >
@@ -227,7 +229,7 @@
               </ul>
             </li>
 
-            <li class="mb-10 ml-10 timeline-item">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -242,6 +244,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >
@@ -326,7 +329,7 @@
               </ul>
             </li>
 
-            <li class="mb-10 ml-10 timeline-item">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -341,6 +344,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >
@@ -419,7 +423,7 @@
               </ul>
             </li>
 
-            <li class="mb-10 ml-10 timeline-item">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -434,6 +438,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >
@@ -501,7 +506,7 @@
               </ul>
             </li>
 
-            <li class="mb-10 ml-10 timeline-item">
+            <li class="mb-10 ml-0 sm:ml-10 timeline-item">
               <span
                 class="
                   flex
@@ -516,6 +521,7 @@
                   ring-4 ring-white
                   transition-all
                   duration-300
+                  hidden sm:flex
                   icon-wrapper
                 "
               >

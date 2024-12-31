@@ -1,12 +1,12 @@
 <template>
-  <div id="skill" class="project relative bg-gray-800 py-8 px-4">
+  <div id="skill" class="relative bg-gray-800 py-8 px-4">
     <div class="container mx-auto">
       <p class="font-bold text-xl sm:text-3xl text-center text-white mb-4">
         Skill
       </p>
 
       <div class="grid grid-cols-6 gap-4">
-        <div class="col-start-2 col-span-4">
+        <div class="col-start-1 col-end-7 sm:col-start-2 sm:col-end-6">
           <span
             v-for="(skill) in skillList"
             :key="skill"
