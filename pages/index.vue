@@ -3,7 +3,7 @@
     <Navbar />
     <HeadLine />
     <Greeting />
-    <Portfolio />
+    <Project />
     <Timeline />
     <Skill />
     <Footer />
@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import { initTWE, Modal, Ripple } from "tw-elements";
+import { initTWE, Carousel, Modal, Ripple } from "tw-elements";
 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -24,7 +24,7 @@ export default {
 
   mounted() {
     AOS.init()
-    initTWE({ Modal, Ripple }, { allowReinits: true });
+    initTWE({ Carousel, Modal, Ripple }, { allowReinits: true });
   },
 
   methods: {},

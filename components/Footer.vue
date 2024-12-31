@@ -11,26 +11,28 @@
           gap-4
         "
       >
-        <div class="text-xs">© 2022-2024 Jaturong Duangchaiyusuk</div>
+        <div class="text-xs">© 2022-2025 Jaturong Duangchaiyusuk</div>
         <div class="flex">
-          <a href="mailto:jaturong.duang@gmail.com" target="_blank"
+          <a href="mailto:jaturong.duang@gmail.com" target="_blank" title="send email"
             ><Mail :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
           <a
             href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
             target="_blank"
+            title="visit linkedin"
           >
             <Linkedin :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
-          <a href="https://github.com/srankmeng" target="_blank">
+          <a href="https://github.com/srankmeng" target="_blank" title="visit github">
             <Github :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
-          <a href="https://medium.com/@srank123" target="_blank">
+          <a href="https://medium.com/@srank123" target="_blank" title="visit medium">
             <Medium :className="'h-4 w-4 m-2 hover:text-gray-200'"
           /></a>
           <a
             href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
             download="Jaturong_Duangchaiyusuk_CV.pdf"
+            title="download cv"
           >
             <Download :className="'h-4 w-4 m-2 hover:text-gray-200'" />
           </a>

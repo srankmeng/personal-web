@@ -1,5 +1,5 @@
 <template>
-  <div id="skill" class="portfolio relative bg-gray-800 py-8 px-4">
+  <div id="skill" class="project relative bg-gray-800 py-8 px-4">
     <div class="container mx-auto">
       <p class="font-bold text-xl sm:text-3xl text-center text-white mb-4">
         Skill
@@ -8,7 +8,7 @@
       <div class="grid grid-cols-6 gap-4">
         <div class="col-start-2 col-span-4">
           <span
-            v-for="(skill, i) in skillList"
+            v-for="(skill) in skillList"
             :key="skill"
             class="
               bg-gray-200
@@ -40,7 +40,7 @@ export default {
       skillList: [
         'Javascript',
         'Vue, Nuxt',
-        'React, Redux',
+        'React, Redux, Next',
         'Angular',
         'React Native',
         'Html & CSS',
@@ -51,16 +51,12 @@ export default {
         'Typescript',
         'Jest',
         'Flutter',
-        'Docker / Docker compose',
-        'AWS',
-        'Azure devops/pipeline',
-        'Github Action',
         'Agile',
         'Odoo',
         'MongoDB',
         'PostgresSQL & MySQL',
         'Cypress',
-        'Cucumber',
+        'Playwright',
         'Python',
         'Liff',
         'Git',
@@ -68,6 +64,15 @@ export default {
         'C#',
         'Elastic search',
         'Terraform',
+        'Docker / Docker compose',
+        'Kubernetes',
+        'Helm chart',
+        'AWS',
+        'Jenkins',
+        'Azure devops/pipeline',
+        'Github Action',
+        'Observabiliy stack',
+        'Ollama',
       ],
     }
   },

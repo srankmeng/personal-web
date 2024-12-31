@@ -1,89 +1,10 @@
 <template>
-  <div id="project" class="portfolio relative bg-gray-800 py-8 px-4">
+  <div id="project" class="project relative bg-gray-800 py-8 px-4">
     <div class="container mx-auto">
       <p class="font-bold text-xl sm:text-3xl text-center text-white mb-4">
         Projects
       </p>
 
-      <!-- Button trigger modal -->
-<button
-  type="button"
-  class="inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-  data-twe-toggle="modal"
-  data-twe-target="#exampleModal"
-  data-twe-ripple-init
-  data-twe-ripple-color="light">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div
-  data-twe-modal-init
-  class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
-  id="exampleModal"
-  tabindex="-1"
-  aria-labelledby="exampleModalLabel"
-  aria-hidden="true">
-  <div
-    data-twe-modal-dialog-ref
-    class="pointer-events-none relative w-auto translate-y-[-50px] opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:max-w-[500px]">
-    <div
-      class="pointer-events-auto relative flex w-full flex-col rounded-md border-none bg-white bg-clip-padding text-current shadow-4 outline-none dark:bg-surface-dark">
-      <div
-        class="flex flex-shrink-0 items-center justify-between rounded-t-md border-b-2 border-neutral-100 p-4 dark:border-white/10">
-        <h5
-          class="text-xl font-medium leading-normal text-surface dark:text-white"
-          id="exampleModalLabel">
-          Modal title
-        </h5>
-        <button
-          type="button"
-          class="box-content rounded-none border-none text-neutral-500 hover:text-neutral-800 hover:no-underline focus:text-neutral-800 focus:opacity-100 focus:shadow-none focus:outline-none dark:text-neutral-400 dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-          data-twe-modal-dismiss
-          aria-label="Close">
-          <span class="[&>svg]:h-6 [&>svg]:w-6">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </span>
-        </button>
-      </div>
-
-      <!-- Modal body -->
-      <div class="relative flex-auto p-4" data-twe-modal-body-ref>
-        Modal body text goes here.
-      </div>
-
-      <!-- Modal footer -->
-      <div
-        class="flex flex-shrink-0 flex-wrap items-center justify-end rounded-b-md border-t-2 border-neutral-100 p-4 dark:border-white/10">
-        <button
-          type="button"
-          class="inline-block rounded bg-primary-100 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-200 focus:bg-primary-accent-200 focus:outline-none focus:ring-0 active:bg-primary-accent-200 dark:bg-primary-300 dark:hover:bg-primary-400 dark:focus:bg-primary-400 dark:active:bg-primary-400"
-          data-twe-modal-dismiss
-          data-twe-ripple-init
-          data-twe-ripple-color="light">
-          Close
-        </button>
-        <button
-          type="button"
-          class="ms-1 inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
-          data-twe-ripple-init
-          data-twe-ripple-color="light">
-          Save changes
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
       <div class="grid grid-cols-6 gap-4">
         <div class="col-start-2 col-span-4">
           <div
@@ -91,7 +12,7 @@
             data-aos="fade-left"
             data-aos-duration="1000"
           >
-            <img
+            <div
               class="
                 w-12
                 h-12
@@ -102,21 +23,24 @@
                 sm:mx-auto
                 bg-white
               "
-              src="~/assets/portfolio/scgid.png"
-              alt="jaturong portfolio, scgid"
-            />
+            >
+              <Chart :className="'w-12 h-12 sm:w-16 sm:h-16 text-gray-600 p-2'" />
+            </div>
+
             <div class="text-sm sm:text-base space-y-1 font-medium">
               <div class="text-white">
-                <a href="https://www.scg-id.com" target="_blank"
-                  >SCG ID
-                  <ExternalLink
-                    :className="'h-4 w-4 sm:h-4 sm:w-4 text-blue-400 inline-block mb-1'"
-                /></a>
+                Logs & profiler dashboard
               </div>
               <div class="text-sm sm:text-base text-gray-400">
-                The website of SCG company for centralizes customer of their
-                affiliates. I contributed to frontend web, backend api and cloud
-                infrastructure include back-office site also.
+                Ministry of Interior project, the dashboard is used for monitor internal system. Using Prometheus for metrics, Loki for logging, Opentelemetry for collector the data and Grafana for visualization. Setup with kubernetes and helm chart.
+              </div>
+              <div
+                class="text-sm sm:text-base text-blue-400 cursor-pointer"
+                data-twe-toggle="modal"
+                data-twe-target="#preview-modal"
+                @click="setCurrentPreviewList('moi', 'white')"
+              >
+                Preview Screen
               </div>
             </div>
           </div>
@@ -139,8 +63,43 @@
                 sm:mx-auto
                 bg-white
               "
-              src="~/assets/portfolio/aday.png"
-              alt="jaturong portfolio, aday"
+              src="~/assets/project/scgid.png"
+              alt="jaturong project, scgid"
+            />
+            <div class="text-sm sm:text-base space-y-1 font-medium">
+              <div class="text-white">
+                <a href="https://www.scg-id.com" target="_blank"
+                  >SCG ID
+                  <ExternalLink
+                    :className="'h-4 w-4 sm:h-4 sm:w-4 text-blue-400 inline-block mb-1'"
+                /></a>
+              </div>
+              <div class="text-sm sm:text-base text-gray-400">
+                The website of SCG company centralizes customer interactions for their affiliates. I contributed to frontend development, backend API integration, cloud infrastructure, and back-office site management.
+              </div>
+            </div>
+          </div>
+
+          <hr class="border-transparent" />
+
+          <div
+            class="sm:flex items-center sm:space-x-8 my-4"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img
+              class="
+                w-12
+                h-12
+                sm:w-16 sm:h-16
+                rounded-full
+                my-4
+                mx-auto
+                sm:mx-auto
+                bg-white
+              "
+              src="~/assets/project/aday.png"
+              alt="jaturong project, aday"
             />
             <div class="text-sm sm:text-base space-y-1 font-medium">
               <div class="text-white">
@@ -152,7 +111,7 @@
               </div>
               <div class="text-sm sm:text-base text-gray-400">
                 The project management website include time-booking and daily
-                logging features, Able to generate report for visualize estime
+                logging features, Able to generate report for visualize estimated
                 and actual remain man-days. I contributed to frontend web,
                 backend api and cloud infrastructure. The website require
                 username so you can see the web on preview modal.
@@ -161,8 +120,9 @@
                 class="text-sm sm:text-base text-blue-400 cursor-pointer"
                 data-twe-toggle="modal"
                 data-twe-target="#preview-modal"
+                @click="setCurrentPreviewList('aday', 'black')"
               >
-                Preview
+                Preview Screen
               </div>
             </div>
           </div>
@@ -185,8 +145,8 @@
                 sm:mx-auto
                 bg-white
               "
-              src="~/assets/portfolio/ktj.jpeg"
-              alt="jaturong portfolio, ktj"
+              src="~/assets/project/ktj.jpeg"
+              alt="jaturong project, ktj"
             />
             <div class="text-sm sm:text-base space-y-1 font-medium">
               <div class="text-white">
@@ -220,6 +180,37 @@
                 back-office website and backend api and cloud infrastructure.
                 For mobile application, I led and manage the team to launch on
                 the store.
+              </div>
+            </div>
+          </div>
+
+          <hr class="border-transparent" />
+
+          <div
+            class="sm:flex items-center sm:space-x-8 my-4"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img
+              class="
+                w-12
+                h-12
+                sm:w-16 sm:h-16
+                rounded-full
+                my-4
+                mx-auto
+                sm:mx-auto
+                bg-white
+              "
+              src="~/assets/project/kube.png"
+              alt="jaturong project, knowledge sharing"
+            />
+            <div class="text-sm sm:text-base space-y-1 font-medium">
+              <div class="text-white">
+                Knowledge sharing
+              </div>
+              <div class="text-sm sm:text-base text-gray-400">
+                Sharing container base technology with docker & kubernetes, including containerize the application, setup the kubernetes cluster, helm chart, observablity and CI/CD pipeline.
               </div>
             </div>
           </div>
@@ -266,98 +257,83 @@
     <!-- Modal -->
     <div
       id="preview-modal"
+      class="fixed left-0 top-0 z-[1055] hidden h-full w-full overflow-y-auto overflow-x-hidden outline-none"
       data-twe-modal-init
-      data-twe-backdrop="static"
-      class="
-        modal
-        fade
-        fixed
-        top-0
-        left-0
-        hidden
-        w-full
-        h-full
-        outline-none
-        overflow-x-hidden overflow-y-auto
-      "
       tabindex="-1"
       aria-hidden="true"
       role="dialog"
     >
-      <div data-twe-modal-dialog-ref>
-        <div
-        class="
-          modal-dialog modal-lg modal-dialog-centered
-          relative
-          w-auto
-          pointer-events-none
-        "
+      <div
+        data-twe-modal-dialog-ref
+        class="pointer-events-none relative flex min-h-[calc(100%-1rem)] w-auto translate-y-[-50px] items-center opacity-0 transition-all duration-300 ease-in-out min-[576px]:mx-auto min-[576px]:mt-7 min-[576px]:min-h-[calc(100%-3.5rem)] min-[576px]:max-w-[1000px] p-4"
       >
-        <div
-          class="
-            modal-content
-            border-none
-            shadow-lg
-            relative
-            flex flex-col
-            w-full
-            pointer-events-auto
-            bg-white bg-clip-padding
-            rounded-md
-            outline-none
-            text-current
-          "
-        >
-          <div class="modal-body relative">
-            <Carousel :list="previewList.aday" />
+        <div class="pointer-events-auto relative flex w-full flex-col rounded-md border-none bg-white bg-clip-padding text-current shadow-4 outline-none dark:bg-surface-dark">
+          <div class="relative flex-auto p-1" data-twe-modal-body-ref>
+            <Carousel :list="currentPreviewList.length ? currentPreviewList : previewList.moi" :color="currentPreviewColor" />
           </div>
         </div>
       </div>
-      </div>
-
     </div>
   </div>
 </template>
 
 <script>
+import Carousel from '@/components/Carousel'
+import Chart from '@/components/Icon/Chart'
 import ExternalLink from '@/components/Icon/ExternalLink'
 import More from '@/components/Icon/More'
-import Carousel from '@/components/Carousel'
+
 export default {
-  name: 'Portfolio',
+  name: 'Project',
   components: {
     Carousel,
+    Chart,
     ExternalLink,
     More,
   },
   data() {
     return {
+      currentPreviewList: [],
+      currentPreviewColor: 'white',
       previewList: {
+        moi: [
+          {
+            image: require(`~/assets/project/moi-preview-1.png`),
+          },
+          {
+            image: require(`~/assets/project/moi-preview-2.png`),
+          },
+          {
+            image: require(`~/assets/project/moi-preview-3.png`),
+          },
+        ],
         aday: [
           {
-            image: require(`~/assets/portfolio/aday-preview-1.png`),
+            image: require(`~/assets/project/aday-preview-1.png`),
           },
           {
-            image: require(`~/assets/portfolio/aday-preview-2.png`),
+            image: require(`~/assets/project/aday-preview-2.png`),
           },
           {
-            image: require(`~/assets/portfolio/aday-preview-3.png`),
+            image: require(`~/assets/project/aday-preview-3.png`),
           },
           {
-            image: require(`~/assets/portfolio/aday-preview-4.png`),
+            image: require(`~/assets/project/aday-preview-4.png`),
           },
           {
-            image: require(`~/assets/portfolio/aday-preview-5.png`),
-          },
-          {
-            image: require(`~/assets/portfolio/aday-preview-6.png`),
+            image: require(`~/assets/project/aday-preview-5.png`),
           },
         ],
       },
     }
   },
 
-  methods: {},
+  methods: {
+    setCurrentPreviewList(subject, color) {
+      this.currentPreviewList = this.previewList[subject]
+      this.currentPreviewColor = color
+    },
+  },
 }
 </script>
 

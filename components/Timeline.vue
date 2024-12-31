@@ -2,7 +2,7 @@
   <div id="timeline" class="timeline py-8 px-4">
     <div class="container mx-auto">
       <p class="font-bold text-xl sm:text-3xl text-center text-gray-900 mb-4">
-        Job Timeline
+        Experience Timeline
       </p>
 
       <div class="grid grid-cols-6 gap-4">
@@ -50,7 +50,7 @@
                   text-gray-900
                 "
               >
-                Full Stack Developer Consultant:
+                Full Stack Developer, Devops, Consultant:
                 <span class="text-gray-500"> Siam Chamnankit</span>
                 <span
                   class="
@@ -86,6 +86,12 @@
                 </li>
                 <li>
                   Creating a pipeline for automated testing and delivery projects
+                </li>
+                <li>
+                  Sharing knowledge & training workshops with the internal team or public and providing technical. For example: git strategy, containerization application, automated testing and CI/CD pipeline.
+                </li>
+                <li>
+                  Creating the dashboard for monitoring system. For example: CPU, Memory, Disk, Network, and etc. Using tool like prometheus, opentelemetry, jaeger, tempo, loki and grafana.
                 </li>
                 <li>
                   Provided ongoing technical support, troubleshooting, and enhancements for existing applications

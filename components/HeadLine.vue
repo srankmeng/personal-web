@@ -74,24 +74,26 @@
       </div>
       <div class="text-sm sm:text-xl">FullStack Software Developer, Thailand</div>
       <div class="m-4 flex justify-center">
-        <a href="mailto:jaturong.duang@gmail.com" target="_blank"
+        <a href="mailto:jaturong.duang@gmail.com" target="_blank" title="send email"
           ><Mail :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
         <a
           href="https://www.linkedin.com/in/jaturong-duangchaiyusuk-7a83b6133/"
+          title="visit linkedin"
           target="_blank"
         >
           <Linkedin :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
-        <a href="https://github.com/srankmeng" target="_blank">
+        <a href="https://github.com/srankmeng" target="_blank" title="visit github">
           <Github :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
-        <a href="https://medium.com/@srank123" target="_blank">
+        <a href="https://medium.com/@srank123" target="_blank" title="visit medium">
           <Medium :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'"
         /></a>
         <a
           href="/personal-web/Jaturong_Duangchaiyusuk_CV.pdf"
           download="Jaturong_Duangchaiyusuk_CV.pdf"
+          title="download cv"
         >
           <Download :className="'h-5 w-5 sm:h-6 sm:w-6 text-white hover:text-gray-200 m-2'" />
         </a>
