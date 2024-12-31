@@ -317,12 +317,6 @@ export default {
           {
             image: require(`~/assets/project/aday-preview-3.png`),
           },
-          {
-            image: require(`~/assets/project/aday-preview-4.png`),
-          },
-          {
-            image: require(`~/assets/project/aday-preview-5.png`),
-          },
         ],
       },
     }
