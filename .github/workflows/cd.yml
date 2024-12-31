@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [18]
 
     steps:
       - name: Checkout
@@ -21,7 +21,7 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Generate
         run: npm run generate
