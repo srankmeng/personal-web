@@ -1,14 +1,20 @@
 /*!
-  * vue-router v3.5.3
-  * (c) 2021 Evan You
-  * @license MIT
-  */
-
-/*!
- * Vue.js v2.6.14
- * (c) 2014-2021 Evan You
- * Released under the MIT License.
- */
+* TW Elements
+* Version: FREE 2.0.0
+* 
+* Copyright: Material Design for Bootstrap
+* https://mdbootstrap.com/
+* 
+* Read the license: https://tw-elements.com/license/
+*
+*
+* Documentation: https://tw-elements.com/
+*
+* Support: https://mdbootstrap.com/support/cat/twe
+*
+* Contact: tailwind@mdbootstrap.com
+* 
+*/
 
 
 /*!
@@ -20,5 +26,12 @@
 /*!
  * vue-no-ssr v1.1.1
  * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+
+/*!
+ * Vue.js v2.7.16
+ * (c) 2014-2023 Evan You
  * Released under the MIT License.
  */
