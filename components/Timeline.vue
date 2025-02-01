@@ -97,6 +97,9 @@
                 <li>
                   Provided ongoing technical support, troubleshooting, and enhancements for existing applications
                 </li>
+                <li>
+                  Ack as <span class="font-bold">a system analyst</span>, designed the database schema, API specification, and documentation (confluence) for <a class="text-blue-400" href="https://sawasdee-pass.aot-web-dev.sawasdeebyaot.com/" target="_blank">airport's premium booking service (butler and buggy)</a>, handling both client bookings and back-office operations, including service availability, scheduling, and pricing. In addition plan and manage development team for delivering the project on time.
+                </li>
               </ul>
             </li>
 

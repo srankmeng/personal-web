@@ -49,6 +49,7 @@ export default {
         'Tailwind',
         'Nest js, Node js',
         'Typescript',
+        'Python',
         'Jest',
         'Flutter',
         'Agile',
