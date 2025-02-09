@@ -139,7 +139,7 @@
                   cursor-pointer
                 "
                 @click="() => goTo('skill')"
-                >Skill</span
+                >Skills</span
               >
             </div>
           </div>

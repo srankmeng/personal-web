@@ -2,7 +2,7 @@
   <div id="skill" class="relative bg-gray-800 py-8 px-4">
     <div class="container mx-auto">
       <p class="font-bold text-xl sm:text-3xl text-center text-white mb-4">
-        Skill
+        Skills
       </p>
 
       <div class="grid grid-cols-6 gap-4">
@@ -74,6 +74,7 @@ export default {
         'Github Action',
         'Observabiliy stack',
         'Ollama',
+        'Langchain'
       ],
     }
   },
