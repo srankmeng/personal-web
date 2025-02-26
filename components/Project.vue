@@ -12,6 +12,41 @@
             data-aos="fade-left"
             data-aos-duration="1000"
           >
+            <img
+              class="
+                w-12
+                h-12
+                sm:w-16 sm:h-16
+                rounded-full
+                my-4
+                mx-auto
+                sm:mx-auto
+                bg-white
+              "
+              src="~/assets/project/sawasdeepass.svg"
+              alt="jaturong project, sawasdeepass"
+            />
+            <div class="text-sm sm:text-base space-y-1 font-medium">
+              <div class="text-white">
+                <a href="https://www.sawasdeepass.com/" target="_blank"
+                  >Sawasdee pass
+                  <ExternalLink
+                    :className="'h-4 w-4 sm:h-4 sm:w-4 text-blue-400 inline-block mb-1'"
+                /></a>
+              </div>
+              <div class="text-sm sm:text-base text-gray-400">
+                The Sawasdee Pass website facilitates booking services at airports, including butler and buggy services. It handles both client bookings and back-office operations, such as service availability, scheduling, and pricing.
+              </div>
+            </div>
+          </div>
+
+          <hr class="border-transparent" />
+
+          <div
+            class="sm:flex items-center sm:space-x-8 my-4"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <div
               class="
                 w-12
