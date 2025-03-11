@@ -98,7 +98,7 @@
                   Provided ongoing technical support, troubleshooting, and enhancements for existing applications
                 </li>
                 <li>
-                  Ack as <span class="font-bold">a system analyst</span>, designed the database schema, API specification, and documentation (confluence) for <a class="text-blue-400" href="https://www.sawasdeepass.com/" target="_blank">https://www.sawasdeepass.com</a>, airport's premium booking service (butler and buggy) which handling both client bookings and back-office operations, including service availability, scheduling, and pricing. In addition my responsibility is to plan and manage the development team for delivering the project on time.
+                  Designed the database schema, API specification, and documentation (confluence) for <a class="text-blue-400" href="https://www.sawasdeepass.com/" target="_blank">https://www.sawasdeepass.com</a>, airport's premium booking service (butler and buggy) which handling both client bookings and back-office operations, including service availability, scheduling, and pricing. In addition my responsibility is to plan and manage the development team for delivering the project on time.
                 </li>
                 <li>
                   Integrated AI-powered features by leveraging LangChain to connect and orchestrate Large Language Models (LLMs) for enhanced application functionality.

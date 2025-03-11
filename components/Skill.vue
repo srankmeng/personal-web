@@ -69,12 +69,14 @@ export default {
         'Kubernetes',
         'Helm chart',
         'AWS',
+        'Azure',
+        'GCP',
         'Jenkins',
         'Azure devops/pipeline',
         'Github Action',
         'Observabiliy stack',
-        'Ollama',
-        'Langchain'
+        'Langchain',
+        'LLM',
       ],
     }
   },

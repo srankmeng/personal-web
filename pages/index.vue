@@ -6,6 +6,7 @@
     <Project />
     <Timeline />
     <Skill />
+    <Training />
     <Footer />
   </div>
 </template>
