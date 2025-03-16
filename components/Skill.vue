@@ -50,6 +50,7 @@ export default {
         'Nest js, Node js',
         'Typescript',
         'Python',
+        'Go',
         'Jest',
         'Flutter',
         'Agile',
