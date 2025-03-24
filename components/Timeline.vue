@@ -207,7 +207,7 @@
                 </li>
                 <li>Use Cypress for E2E to automate part</li>
                 <li>
-                  Delivery website
+                  Implement the website
                   <a
                     class="text-blue-400"
                     href="https://app.aday.works"
@@ -217,7 +217,7 @@
                   that including a back-office site
                 </li>
                 <li>
-                  Implement API of the mobile application both of
+                  Implement the mobile application and API of
                   <a
                     class="text-blue-400"
                     href="https://apps.apple.com/th/app/%E0%B9%80%E0%B8%81%E0%B8%A9%E0%B8%95%E0%B8%A3%E0%B8%97-%E0%B8%99%E0%B9%83%E0%B8%88-%E0%B8%99-%E0%B8%81%E0%B8%9A-%E0%B8%99/id1623517440"
@@ -323,7 +323,7 @@
                   action for CI/CD part
                 </li>
                 <li>
-                  Delivery website
+                  Implement website
                   <a
                     class="text-blue-400"
                     href="https://www.scg-id.com"
@@ -410,6 +410,7 @@
               <ul
                 class="list-disc ml-4 mb-4 text-sm sm:text-base text-gray-500"
               >
+                <li>Join the startup financial team</li>
                 <li>Communicate with any team for clarified the requirement</li>
                 <li>
                   Planning & resource management for the delivery projects on
@@ -421,11 +422,9 @@
                 <li>Motivation team members and made teamwork</li>
                 <li>Use jest for unit test</li>
                 <li>Discussing with backend team for design response api</li>
-                <li>Delivery KYC's back-office</li>
-                <li>
-                  Delivery chat system use in back-office with WebRTC technology
-                </li>
-                <li>Delivery monitoring system display with chart</li>
+                <li>Implement KYC system</li>
+                <li>Implement chat system use in back-office with WebRTC technology</li>
+                <li>Implement monitoring system display with chart</li>
               </ul>
             </li>
 
