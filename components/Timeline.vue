@@ -51,7 +51,7 @@
                   text-gray-900
                 "
               >
-                Full Stack Developer, Devops, Consultant:
+              Software Development Team Leader, Consultant:
                 <span class="text-gray-500"> Siam Chamnankit</span>
                 <span
                   class="
